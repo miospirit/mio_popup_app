@@ -32,7 +32,21 @@ hr { border:none; height:1px; background:linear-gradient(90deg, transparent, rgb
 #mio-box { width:min(480px, 92vw); background:#fff; border-radius:16px; padding:22px 20px; box-shadow:0 10px 40px rgba(0,0,0,.18); text-align:center; }
 #mio-title { font-size:20px; font-weight:700; margin-bottom:8px; color:#1f274e; }
 #mio-text  { font-size:14px; color:#555; line-height:1.7; }
-.mio-btn { display:inline-block; margin-top:16px; padding:12px 18px; border-radius:10px; background:#1f274e; color:#fff; text-decoration:none; font-weight:700; border:1px solid rgba(0,0,0,0.1); }
+.mio-btn {
+  display:inline-block; 
+  margin-top:16px; 
+  padding:12px 18px; 
+  border-radius:10px;
+  background:#06C755; /* LINEグリーン */
+  color:#fff;          /* 白文字 */
+  text-decoration:none; 
+  font-weight:700;
+  border:none;
+  transition:filter .2s;
+}
+.mio-btn:hover {
+  filter:brightness(1.1);
+}
 #mio-close { margin-top:10px; background:transparent; border:none; color:#666; cursor:pointer; }
 </style>
 """, unsafe_allow_html=True)

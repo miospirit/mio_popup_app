@@ -141,9 +141,9 @@ with st.form("mio_form", clear_on_submit=False):
 if submitted:
     if not agree:
         st.error("一度のみの実施に同意してください。")
-    else:
-        st.success("診断の準備ができました。公式LINEで結果をお届けします。")
-        show_line_popup()
+        st.stop()
+    st.success("診断の準備ができました。公式LINEで結果をお届けします。")
+    show_line_popup()
 
 # 診断ボタンを押した後
 if ok:

@@ -6,6 +6,7 @@ LINE_LIFF_URL = "https://liff.line.me/1645278921-kWRPP32q/?accountId=697obqdd"
 
 # ページ設定
 st.set_page_config(page_title="澪｜幸福数字・LINEで結果受け取り", page_icon="🔮", layout="centered")
+
 # ===== LINEポップアップ =====
 
 def show_line_popup():

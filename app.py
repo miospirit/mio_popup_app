@@ -1,5 +1,6 @@
 # app.py — LINE誘導用（SNSに貼る用）
 import streamlit as st
+import os
 LINE_URL = st.secrets.get(
     "LINE_URL",
     os.environ.get("LINE_URL", "https://liff.line.me/1645278921-kWRPP32q/?accountId=697obqdd")
